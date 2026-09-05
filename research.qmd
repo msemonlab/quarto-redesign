@@ -1,0 +1,81 @@
+---
+title: "Research"
+description: "A structured archive of academic publications, working papers, and research notes by MS Emon."
+toc: true
+---
+
+::: {.kicker}
+RESEARCH ARCHIVE
+:::
+
+# Research {.mb-3}
+
+This section will collect research publications, analytical deep-dives, and structured research notes.
+
+::: {.callout-note appearance="simple" icon=false}
+**Status Notice:** The research archive is currently initializing. Future Quarto documents can be added to this project and linked here.
+:::
+
+---
+
+## Working Papers & Forthcoming Publications
+
+::: {.publication-card}
+::: {.pub-meta-top}
+<span class="tag-badge tag-year">2025</span>
+<span class="tag-badge tag-status">In Progress</span>
+<span class="tag-badge tag-type">Working Paper</span>
+<span class="tag-badge tag-type">ResearchGate</span>
+:::
+
+### Strategic Research Synthesis: Data-Driven Decision Frameworks at the Intersection of Systems and Cognitive Neuroscience {.pub-title}
+
+::: {.pub-authors}
+**Md. Salauddin Emon** (MS Emon)
+:::
+
+::: {.pub-abstract}
+This research synthesizes theoretical frameworks from complex systems analysis and neuroscientific decision heuristics with practical applications in digital commerce and organizational strategy. It explores how human cognitive architectures process high-velocity market data, how cognitive load influences systemic decision bottlenecks, and how customer-centric operational loops can be modeled mathematically for scalable execution.
+:::
+
+::: {.pub-actions}
+[View Author on ResearchGate &rarr;](https://www.researchgate.net/profile/Md-Salauddin-Emon){.btn-academic .btn-primary-academic target="_blank"}
+<button class="btn-academic btn-outline-academic" type="button" data-bs-toggle="collapse" data-bs-target="#bibtex-emon2025" aria-expanded="false" aria-controls="bibtex-emon2025">
+  Cite (BibTeX)
+</button>
+:::
+
+::: {.collapse #bibtex-emon2025 .mt-3}
+::: {.citation-box}
+```bibtex
+@article{emon2025strategic,
+  author    = {Emon, Md. Salauddin},
+  title     = {Strategic Research Synthesis: Data-Driven Decision Frameworks at the Intersection of Systems and Cognitive Neuroscience},
+  journal   = {ResearchGate Working Papers},
+  year      = {2025},
+  note      = {In progress. Calibrating for data-driven and customer-centric frameworks},
+  url       = {https://www.researchgate.net/profile/Md-Salauddin-Emon}
+}
+```
+:::
+:::
+:::
+
+---
+
+## Research Focus Areas
+
+### 1. Complex Systems & Structural Equilibrium
+Investigating non-linear feedback loops in commercial and organizational networks. How macroscopic behaviors emerge from distributed decision agents and how feedback delays impact organizational equilibrium.
+
+### 2. Cognitive Neuroscience & Decision Architectures
+Analyzing how cognitive biases, bounded rationality, and sensory processing constraints shape individual and collective choices in data-dense commercial environments.
+
+### 3. Customer-Centric Empirical Frameworks
+Designing rigorous, measurable frameworks that anchor technical and strategic product decisions around true customer value creation, behavioral telemetry, and unit economics.
+
+---
+
+## Access & Collaboration
+
+Formal publications, preprints, and updates are coordinated through ResearchGate. If you are researching similar intersections or would like to discuss working papers, connect via [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank"} or track development on [GitHub](https://github.com/msemonlab){target="_blank"}.

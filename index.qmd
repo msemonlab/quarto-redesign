@@ -1,0 +1,116 @@
+---
+title: "MS Emon &mdash; Research Repository"
+pagetitle: "Home &mdash; MS Emon"
+page-layout: article
+toc: false
+---
+
+::: {.hero-banner}
+::: {.hero-eyebrow}
+<span>RESEARCH &bull; SYSTEMS &bull; NEUROSCIENCE</span>
+:::
+
+# MS Emon {.hero-title}
+
+::: {.hero-tagline}
+**Strategy Analyst** operating at the intersection of **Systems Theory**, **Neuroscience**, and **E-commerce Scalability**. Dedicated to building and exploring data-driven, customer-centric decision frameworks.
+:::
+
+::: {.hero-actions}
+[Explore Research &rarr;](research.qmd){.btn-academic .btn-primary-academic}
+[View Analytics](analytics.qmd){.btn-academic .btn-outline-academic}
+[ResearchGate Profile](https://www.researchgate.net/profile/Md-Salauddin-Emon){.btn-academic .btn-outline-academic target="_blank"}
+:::
+:::
+
+::: {.observation-card}
+::: {.card-header-bar}
+::: {.beacon-wrapper}
+<span class="beacon-dot"></span>
+<span>PRIMARY OBSERVATION FIELD</span>
+:::
+
+<span class="status-badge">Live Telemetry</span>
+:::
+
+### Operational Status {.mb-3}
+
+#### Strategic Research Synthesis {.h5 .text-primary .mb-2}
+
+The **Repository** is currently in initialization stage.
+
+::: {.focus-box}
+<span class="focus-label">Current Focus:</span>
+<p class="focus-text">Foundational ResearchGate Publication &mdash; <em>In Progress</em></p>
+:::
+
+<p class="status-footer-note">System status: Calibrating for data-driven and customer-centric frameworks.</p>
+:::
+
+## Core Research Pillars
+
+A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.
+
+::: {.pillar-grid}
+
+::: {.pillar-card}
+::: {.pillar-icon}
+🧠
+:::
+### Cognitive & Systems Neuroscience {.pillar-title}
+::: {.pillar-desc}
+Investigating the cognitive foundations of decision-making, information processing architectures, and how human mental models interface with complex environments.
+:::
+[Explore Research &rarr;](research.qmd){.pillar-link}
+:::
+
+::: {.pillar-card}
+::: {.pillar-icon}
+📈
+:::
+### E-Commerce & Systems Scalability {.pillar-title}
+::: {.pillar-desc}
+Synthesizing scalable organizational mechanics, operational leverage, and robust customer-centric architectures built for sustained high-volume digital commerce.
+:::
+[View Frameworks &rarr;](analytics.qmd){.pillar-link}
+:::
+
+::: {.pillar-card}
+::: {.pillar-icon}
+📊
+:::
+### Data-Driven Decision Science {.pillar-title}
+::: {.pillar-desc}
+Developing structured analytical tools, empirical models, and computational notebooks that translate complex customer dynamics into actionable executive strategy.
+:::
+[Examine Analytics &rarr;](analytics.qmd){.pillar-link}
+:::
+
+:::
+
+---
+
+## Research Spotlight
+
+::: {.publication-card}
+::: {.pub-meta-top}
+<span class="tag-badge tag-year">2025</span>
+<span class="tag-badge tag-status">In Progress</span>
+<span class="tag-badge tag-type">Working Paper</span>
+:::
+
+### Strategic Research Synthesis: Data-Driven Decision Frameworks at the Intersection of Systems and Cognitive Neuroscience {.pub-title}
+
+::: {.pub-authors}
+**Md. Salauddin Emon**
+:::
+
+::: {.pub-abstract}
+This working synthesis investigates how principles from cognitive neuroscience and systems theory can be integrated into modern e-commerce scalability. Focuses on calibrating customer-centric frameworks for reliable empirical decision-making.
+:::
+
+::: {.pub-actions}
+[View on ResearchGate &rarr;](https://www.researchgate.net/profile/Md-Salauddin-Emon){.btn-academic .btn-primary-academic target="_blank"}
+[Browse All Publications](research.qmd){.btn-academic .btn-outline-academic}
+:::
+:::

@@ -1,0 +1,72 @@
+---
+title: "Analytics"
+description: "Data-driven analyses, decision frameworks, visual explanations, and analytical experiments."
+toc: true
+---
+
+::: {.kicker}
+ANALYTICAL ARCHIVE
+:::
+
+# Analytics {.mb-3}
+
+This section will present data-driven analyses, decision frameworks, visual explanations, and analytical experiments.
+
+Planned themes include customer-centric systems, e-commerce scalability, measurable operating frameworks, and the relationship between human cognition and decision quality.
+
+::: {.callout-note appearance="simple" icon=false}
+**Status Notice:** The analytics archive is currently initializing. Future Quarto documents can be added as standalone pages or computational notebooks.
+:::
+
+---
+
+## Planned Analytical Frameworks
+
+::: {.pillar-grid}
+
+::: {.pillar-card}
+::: {.pillar-icon}
+📊
+:::
+### Customer-Centric Systems Architecture {.pillar-title}
+::: {.pillar-desc}
+Mathematical modeling of customer journey nodes, retention mechanics, and lifetime value propagation across multi-tiered e-commerce platforms.
+:::
+::: {.tag-badge .tag-type}Computational Notebook:::
+:::
+
+::: {.pillar-card}
+::: {.pillar-icon}
+⚡
+:::
+### E-Commerce Scalability & Unit Dynamics {.pillar-title}
+::: {.pillar-desc}
+Empirical models analyzing operating leverage, fulfillment latency distributions, and inventory velocity under unpredictable demand shocks.
+:::
+::: {.tag-badge .tag-type}Operating Model:::
+:::
+
+::: {.pillar-card}
+::: {.pillar-icon}
+🧪
+:::
+### Cognitive Heuristics in Executive Decision Quality {.pillar-title}
+::: {.pillar-desc}
+Quantitative frameworks examining error distributions in high-stakes operational trade-offs, information overload effects, and optimal stopping algorithms.
+:::
+::: {.tag-badge .tag-type}Empirical Synthesis:::
+:::
+
+:::
+
+---
+
+## Computational Methodology
+
+The analytics repository is engineered to host both reproducible Python/R computational notebooks and interactive HTML widgets:
+
+- **Reproducible Notebooks:** All future analytical papers will feature executable code cells, clear dependency manifests, and data provenance.
+- **Parametric Modeling:** Interactive sensitivity simulations allowing readers to test different operational scenarios.
+- **Open Synthesis:** Data visualizations and analytical templates will be released directly through this repository under open academic practices.
+
+To collaborate or request a deep-dive on specific framework implementations, visit the [About page](about.qmd) or follow ongoing work on [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank"}.

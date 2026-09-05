@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MS Emon"
+  description: "Strategy Analyst | Systems, Neuroscience & E-commerce | Data-Driven & Customer-Centric Research Repository"
+  site-url: "https://msemonlab.github.io/quarto-redesign/"
+  repo-url: "https://github.com/msemonlab/quarto-redesign"
+  favicon: assets/images/favicon.svg
+  back-to-top-navigation: true
+  
+  search:
+    location: navbar
+    type: overlay
+    show-item-context: true
+  
+  navbar:
+    title: "MS Emon"
+    logo: assets/images/logo.svg
+    collapse-below: lg
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Analytics"
+        href: analytics.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: "https://github.com/msemonlab"
+        aria-label: "GitHub Profile"
+      - text: "ResearchGate"
+        href: "https://www.researchgate.net/profile/Md-Salauddin-Emon"
+        aria-label: "ResearchGate Profile"
+
+  page-footer:
+    border: true
+    left: "&copy; 2026 MS Emon. All rights reserved."
+    center: "Strategy Analyst &bull; Systems, Neuroscience &amp; E-commerce &bull; Data-Driven &amp; Customer-Centric"
+    right:
+      - icon: github
+        href: "https://github.com/msemonlab"
+        aria-label: "GitHub"
+      - text: "ResearchGate"
+        href: "https://www.researchgate.net/profile/Md-Salauddin-Emon"
+        aria-label: "ResearchGate"
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false
+    html-math-method: katex
+
+execute:
+  freeze: auto

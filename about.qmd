@@ -1,0 +1,66 @@
+---
+title: "About the Repository"
+description: "Repository profile, researcher overview, and intellectual roadmap of MS Emon's open research lab."
+toc: true
+---
+
+::: {.kicker}
+REPOSITORY PROFILE
+:::
+
+# About the Repository {.mb-3}
+
+This repository documents MS Emon's research direction across systems thinking, neuroscience, e-commerce, and customer-centric decision frameworks.
+
+It is designed as a focused public research space: concise working notes, structured synthesis, and future analytical studies will be published here as the collection develops.
+
+For formal publications and author information, visit [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank" rel="noopener noreferrer"}.
+
+---
+
+## Researcher Profile
+
+::: {.content-card}
+### MS Emon (Md. Salauddin Emon) {.h3 .text-primary .mb-2}
+
+**Strategy Analyst &bull; Systems, Neuroscience &amp; E-Commerce &bull; Data-Driven &amp; Customer-Centric**
+
+A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.
+
+::: {.mt-3}
+- **Primary Affiliation / Public Profile:** [ResearchGate Profile](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank"}
+- **Code & Open Repositories:** [GitHub @msemonlab](https://github.com/msemonlab){target="_blank"}
+- **Domain Focus:** Cognitive Systems, Enterprise Scalability Heuristics, Quantitative Decision Science
+:::
+:::
+
+---
+
+## Interdisciplinary Research Matrix
+
+The research program investigates three traditionally separate disciplines to uncover actionable synthesis:
+
+| Domain | Theoretical Focus | Applied Translation |
+|---|---|---|
+| **Systems Theory** | Complex non-linear feedback loops, state transitions, stability | Resilient organizational design and supply network dynamics |
+| **Cognitive Neuroscience** | Information processing capacity, cognitive bias heuristics | High-stakes executive decision architecture and bias reduction |
+| **E-Commerce & Analytics** | Quantitative telemetry, customer lifetime dynamics | Scalable customer-centric operations and unit economics |
+
+---
+
+## Intellectual Philosophy & Approach
+
+1. **Empirical Grounding:** Concepts are developed through measurable data, transparent assumptions, and computational models rather than unverified dogma.
+2. **Customer-Centricity as a Systemic Law:** True organizational scalability arises not from localized optimizations, but from aligning every systemic loop with customer value realization.
+3. **Cognitive Ergonomics:** Strategy must accommodate the biological and computational limits of human decision-makers under uncertainty.
+
+---
+
+## Connect & Collaborate
+
+Feedback on working papers, collaborative analytical projects, and academic inquiries are warmly welcomed:
+
+::: {.hero-actions .mt-3}
+[Connect on ResearchGate &rarr;](https://www.researchgate.net/profile/Md-Salauddin-Emon){.btn-academic .btn-primary-academic target="_blank"}
+[GitHub Repositories](https://github.com/msemonlab){.btn-academic .btn-outline-academic target="_blank"}
+:::
