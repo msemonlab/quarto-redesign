@@ -61,6 +61,7 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     html-math-method: katex
+    include-after-body: _includes/theme-sync.html
 
 execute:
   freeze: auto
