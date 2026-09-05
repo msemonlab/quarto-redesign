@@ -32,7 +32,7 @@ Planned themes include customer-centric systems, e-commerce scalability, measura
 ::: {.pillar-desc}
 Mathematical modeling of customer journey nodes, retention mechanics, and lifetime value propagation across multi-tiered e-commerce platforms.
 :::
-::: {.tag-badge .tag-type}Computational Notebook:::
+[Computational Notebook]{.tag-badge .tag-type}
 :::
 
 ::: {.pillar-card}
@@ -43,7 +43,7 @@ Mathematical modeling of customer journey nodes, retention mechanics, and lifeti
 ::: {.pillar-desc}
 Empirical models analyzing operating leverage, fulfillment latency distributions, and inventory velocity under unpredictable demand shocks.
 :::
-::: {.tag-badge .tag-type}Operating Model:::
+[Operating Model]{.tag-badge .tag-type}
 :::
 
 ::: {.pillar-card}
@@ -54,7 +54,7 @@ Empirical models analyzing operating leverage, fulfillment latency distributions
 ::: {.pillar-desc}
 Quantitative frameworks examining error distributions in high-stakes operational trade-offs, information overload effects, and optimal stopping algorithms.
 :::
-::: {.tag-badge .tag-type}Empirical Synthesis:::
+[Empirical Synthesis]{.tag-badge .tag-type}
 :::
 
 :::
