@@ -32,3 +32,6 @@ This document outlines the design, UX, and technical architecture in the `quarto
    An emerald pulse beacon dot was integrated into the `PRIMARY OBSERVATION FIELD` status card, reinforcing the scientific telemetry aesthetic.
 5. **Clean Quarto Pipeline**:
    The project builds with 0 errors and 0 warnings using `quarto render`, outputting clean static HTML directly deployable to GitHub Pages.
+6. **Precision Logo Lockup Alignment**:
+   Calibrated `.header-repository-label` (`RESEARCH REPOSITORY`) using horizontal condensation (`transform: scaleX(...)`) and tracked uppercase lettering to visually and geometrically match the exact rendered length of `MS Emon` across both desktop and mobile viewports.
+
