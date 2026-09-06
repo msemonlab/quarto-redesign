@@ -930,3 +930,35 @@
   text-transform: uppercase;
   letter-spacing: 0.8px;
 }
+
+
+/*=============================================================================
+  15. Mobile Overscroll & Footer Seal (Prevent Background Peek)
+=============================================================================*/
+html, body {
+  overscroll-behavior-y: none;
+}
+
+.footer-bottom-extension {
+  height: 60vh;
+  margin-bottom: -60vh;
+  background: var(--hero-gradient);
+  position: relative;
+  z-index: -1;
+  pointer-events: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme='dark'] .footer-bottom-extension {
+  background: var(--hero-gradient);
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overscroll-behavior-y: none;
+  }
+  .site-footer {
+    position: relative;
+    margin-bottom: 0 !important;
+  }
+}
