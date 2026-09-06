@@ -1,29 +1,108 @@
 ---
 title: "Search"
-description: "Search research publications, frameworks, and notes across the MS Emon repository."
-toc: false
 ---
 
-::: {.search-container}
+<div class="single-post-area">
+<div class="post-body">
+<section class="article-card">
+<p class="card-kicker">REPOSITORY SEARCH</p>
+<h1>Search</h1>
+<form class="site-search-page" action="search.html" method="get" id="search-form">
+<label for="search-query">Search research and articles</label>
+<div class="search-page-controls">
+<input id="search-query" name="q" type="search" placeholder="Search research, analytics, or topics...">
+<button class="btn-primary" type="submit">Search</button>
+</div>
+</form>
+<div id="search-results" aria-live="polite">
+<p class="search-status" id="search-status-text">Enter keywords above or search across research domains.</p>
+</div>
+</section>
+</div>
+</div>
 
-::: {.kicker}
-REPOSITORY SEARCH
-:::
+<script>
+(function(){
+  var corpus = [
+    {
+      title: "Strategic Research Synthesis: Cognitive Neuroscience & E-Commerce Scalability",
+      url: "research.html",
+      category: "Research / Publication",
+      snippet: "An empirical synthesis investigating how neuroscientific models and systems dynamics inform modern digital commerce and customer decision velocity."
+    },
+    {
+      title: "Operational Status: Primary Observation Field",
+      url: "index.html",
+      category: "Repository / Status",
+      snippet: "Primary observation field tracking repository initialization and foundational ResearchGate publication in progress."
+    },
+    {
+      title: "Customer-Centric Decision Frameworks & Scalability Analytics",
+      url: "analytics.html",
+      category: "Analytics / Methodology",
+      snippet: "Data-driven analyses, decision frameworks, visual explanations, and analytical experiments in digital commerce and human cognition."
+    },
+    {
+      title: "About MS Emon & Interdisciplinary Research Direction",
+      url: "about.html",
+      category: "Profile / Overview",
+      snippet: "MS Emon's research direction at the intersection of systems thinking, cognitive neuroscience, e-commerce, and customer-centric decision frameworks."
+    },
+    {
+      title: "ResearchGate Author Profile: Md. Salauddin Emon",
+      url: "https://www.researchgate.net/profile/Md-Salauddin-Emon",
+      category: "External / Publications",
+      snippet: "Formal academic publications, author profile, and research network for Md. Salauddin Emon."
+    }
+  ];
 
-# Search Repository {.mb-3}
+  function runSearch() {
+    var params = new URLSearchParams(window.location.search);
+    var q = (params.get('q') || '').trim().toLowerCase();
+    var inputEl = document.getElementById('search-query');
+    var resultsEl = document.getElementById('search-results');
+    var statusText = document.getElementById('search-status-text');
 
-::: {.content-card}
+    if (inputEl && q) inputEl.value = params.get('q');
 
-Search publications, working papers, and analytical archives across this repository.
+    if (!q) {
+      if (statusText) statusText.textContent = "Enter keywords above or search across research domains.";
+      return;
+    }
 
-::: {.callout-tip appearance="simple"}
-**Quick Search:** You can also trigger the global instant search at any time by clicking the search icon in the top navigation bar, or by pressing <kbd>/</kbd> or <kbd>s</kbd> on your keyboard.
-:::
+    var matches = corpus.filter(function(item) {
+      return item.title.toLowerCase().indexOf(q) !== -1 ||
+             item.snippet.toLowerCase().indexOf(q) !== -1 ||
+             item.category.toLowerCase().indexOf(q) !== -1;
+    });
 
-::: {#quarto-search-results}
-:::
+    if (matches.length === 0) {
+      resultsEl.innerHTML = '<p class="search-status">No matching research records found for "<strong>' + escapeHtml(q) + '</strong>". Try searching for <em>neuroscience</em>, <em>systems</em>, <em>commerce</em>, or <em>analytics</em>.</p>';
+    } else {
+      var html = '<p class="search-status">Found <strong>' + matches.length + '</strong> result' + (matches.length === 1 ? '' : 's') + ' for "<strong>' + escapeHtml(q) + '</strong>":</p>';
+      html += '<div class="search-results-list">';
+      matches.forEach(function(m) {
+        var isExt = m.url.startsWith('http');
+        html += '<div class="search-result-item">' +
+          '<div class="search-result-meta">' + escapeHtml(m.category) + '</div>' +
+          '<h3><a href="' + m.url + '"' + (isExt ? ' target="_blank" rel="noopener noreferrer"' : '') + '>' + escapeHtml(m.title) + '</a></h3>' +
+          '<p>' + escapeHtml(m.snippet) + '</p>' +
+          '<a href="' + m.url + '" class="read-more"' + (isExt ? ' target="_blank" rel="noopener noreferrer"' : '') + '>Open Record</a>' +
+          '</div>';
+      });
+      html += '</div>';
+      resultsEl.innerHTML = html;
+    }
+  }
 
-<p class="text-muted mt-3">Search is powered by Quarto client-side full-text indexing and is updated automatically with each publication.</p>
-:::
+  function escapeHtml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
 
-:::
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', runSearch);
+  } else {
+    runSearch();
+  }
+})();
+</script>

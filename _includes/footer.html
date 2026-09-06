@@ -1,0 +1,72 @@
+  </main>
+  <aside class="sidebar-area">
+    <div class="sidebar-widget">
+      <h2>About the Repository</h2>
+      <div class="about-text widget-content">
+        <p>A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.</p>
+        <div style="margin-top: 14px;">
+          <a href="about.html" class="sidebar-readmore" style="font-size: 13px; font-weight: 600; color: var(--light-blue); display: inline-flex; align-items: center; gap: 4px; text-decoration: none;">Explore profile &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-widget">
+      <h2>Core Research Domains</h2>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><a href="analytics.html">Systems Theory <span class="label-count">Core</span></a></li>
+        <li><a href="research.html">Cognitive Neuroscience <span class="label-count">Active</span></a></li>
+        <li><a href="analytics.html">E-commerce Scalability <span class="label-count">Modeling</span></a></li>
+        <li><a href="research.html">Customer-Centricity <span class="label-count">Empirical</span></a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-brand"><a href="index.html">MS Emon</a></p>
+    <p class="footer-tagline">Strategy Analyst | Systems, Neuroscience &amp; E-commerce | Data-Driven &amp; Customer-Centric</p>
+    <hr class="footer-divider">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="analytics.html">Analytics</a>
+      <a href="about.html">About</a>
+      <a href="https://www.researchgate.net/profile/Md-Salauddin-Emon" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-copyright">&copy; <span id="current-year"></span> MS Emon. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+    (function(){
+      var root=document.documentElement, themeButton=document.getElementById('theme-toggle'), savedTheme=localStorage.getItem('site-theme');
+      var systemQuery=window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+      function systemMode() { return systemQuery && systemQuery.matches ? 'dark' : 'light'; }
+      function applyTheme(mode) {
+        var active=(mode==='light'||mode==='dark') ? mode : systemMode();
+        root.setAttribute('data-theme',active);
+        if(themeButton) {
+          themeButton.setAttribute('data-mode',active);
+          themeButton.setAttribute('aria-label','Change color theme; current: '+active.charAt(0).toUpperCase()+active.slice(1));
+          themeButton.setAttribute('title','Color theme: '+active.charAt(0).toUpperCase()+active.slice(1)+' (click to switch)');
+        }
+      }
+      if(savedTheme==='light'||savedTheme==='dark') applyTheme(savedTheme); else applyTheme('system');
+      if(themeButton) themeButton.addEventListener('click',function(){
+        var current = root.getAttribute('data-theme') || 'light';
+        var next = current === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('site-theme', next);
+        applyTheme(next);
+      });
+      if(systemQuery && systemQuery.addEventListener) systemQuery.addEventListener('change',function(){
+        if(!localStorage.getItem('site-theme')) applyTheme('system');
+      });
+      var toggle=document.getElementById('menu-toggle'), drawer=document.getElementById('nav-drawer'), overlay=document.getElementById('nav-overlay'), closeBtn=document.getElementById('drawer-close');
+      function openDrawer() { if(!drawer||!overlay)return; if(toggle)toggle.setAttribute('aria-expanded','true'); drawer.classList.add('open'); requestAnimationFrame(function(){ overlay.style.display='block'; requestAnimationFrame(function(){ overlay.classList.add('visible'); }); }); document.body.style.overflow='hidden'; }
+      function closeDrawer() { if(!drawer||!overlay)return; if(toggle)toggle.setAttribute('aria-expanded','false'); drawer.classList.remove('open'); overlay.classList.remove('visible'); setTimeout(function(){ overlay.style.display='none'; },300); document.body.style.overflow=''; if(toggle&&document.activeElement!==toggle)toggle.focus(); }
+      if(toggle)toggle.addEventListener('click',openDrawer);
+      if(closeBtn)closeBtn.addEventListener('click',closeDrawer);
+      if(overlay)overlay.addEventListener('click',closeDrawer);
+      document.addEventListener('keydown',function(e){if(e.key==='Escape')closeDrawer();});
+      var yearEl=document.getElementById('current-year'); if(yearEl)yearEl.textContent=new Date().getFullYear();
+    })();
+</script>

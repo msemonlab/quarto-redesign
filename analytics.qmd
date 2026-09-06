@@ -1,72 +1,34 @@
 ---
 title: "Analytics"
-description: "Data-driven analyses, decision frameworks, visual explanations, and analytical experiments."
-toc: true
 ---
 
-::: {.kicker}
-ANALYTICAL ARCHIVE
-:::
+<div class="single-post-area">
+<div class="post-body">
+<section class="article-card">
+<p class="card-kicker">ANALYTICAL ARCHIVE</p>
+<h1>Analytics</h1>
+<p>This section will present data-driven analyses, decision frameworks, visual explanations, and analytical experiments.</p>
+<p>Planned themes include customer-centric systems, e-commerce scalability, measurable operating frameworks, and the relationship between human cognition and decision quality.</p>
+<p class="search-status">The analytics archive is currently initializing. Future Quarto documents can be added as standalone pages or computational notebooks.</p>
+</section>
 
-# Analytics {.mb-3}
-
-This section will present data-driven analyses, decision frameworks, visual explanations, and analytical experiments.
-
-Planned themes include customer-centric systems, e-commerce scalability, measurable operating frameworks, and the relationship between human cognition and decision quality.
-
-::: {.callout-note appearance="simple" icon=false}
-**Status Notice:** The analytics archive is currently initializing. Future Quarto documents can be added as standalone pages or computational notebooks.
-:::
-
----
-
-## Planned Analytical Frameworks
-
-::: {.pillar-grid}
-
-::: {.pillar-card}
-::: {.pillar-icon}
-📊
-:::
-### Customer-Centric Systems Architecture {.pillar-title}
-::: {.pillar-desc}
-Mathematical modeling of customer journey nodes, retention mechanics, and lifetime value propagation across multi-tiered e-commerce platforms.
-:::
-[Computational Notebook]{.tag-badge .tag-type}
-:::
-
-::: {.pillar-card}
-::: {.pillar-icon}
-⚡
-:::
-### E-Commerce Scalability & Unit Dynamics {.pillar-title}
-::: {.pillar-desc}
-Empirical models analyzing operating leverage, fulfillment latency distributions, and inventory velocity under unpredictable demand shocks.
-:::
-[Operating Model]{.tag-badge .tag-type}
-:::
-
-::: {.pillar-card}
-::: {.pillar-icon}
-🧪
-:::
-### Cognitive Heuristics in Executive Decision Quality {.pillar-title}
-::: {.pillar-desc}
-Quantitative frameworks examining error distributions in high-stakes operational trade-offs, information overload effects, and optimal stopping algorithms.
-:::
-[Empirical Synthesis]{.tag-badge .tag-type}
-:::
-
-:::
-
----
-
-## Computational Methodology
-
-The analytics repository is engineered to host both reproducible Python/R computational notebooks and interactive HTML widgets:
-
-- **Reproducible Notebooks:** All future analytical papers will feature executable code cells, clear dependency manifests, and data provenance.
-- **Parametric Modeling:** Interactive sensitivity simulations allowing readers to test different operational scenarios.
-- **Open Synthesis:** Data visualizations and analytical templates will be released directly through this repository under open academic practices.
-
-To collaborate or request a deep-dive on specific framework implementations, visit the [About page](about.qmd) or follow ongoing work on [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank"}.
+<section class="article-card" style="margin-top: 28px;">
+<p class="card-kicker" style="font-size: 11px; font-weight: 700; color: var(--accent-teal); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">METHODOLOGY &amp; FRAMEWORKS</p>
+<h2 style="font-size: 20px; color: var(--primary-blue); margin-top: 0; margin-bottom: 12px;">Planned Computational &amp; Analytical Frameworks</h2>
+<div class="domain-grid">
+  <div class="domain-card">
+    <h4>Customer-Centric Architecture</h4>
+    <p>Quantitative models for mapping customer lifetime journey friction, satisfaction thresholds, and touchpoint reliability metrics.</p>
+  </div>
+  <div class="domain-card">
+    <h4>Scalability Optimization</h4>
+    <p>Mathematical modeling of inventory throughput, unit economics, conversion funnels, and supply chain responsiveness.</p>
+  </div>
+  <div class="domain-card">
+    <h4>Decision-Quality Heuristics</h4>
+    <p>Data visualization frameworks calibrating operational telemetry against cognitive decision biases in leadership workflows.</p>
+  </div>
+</div>
+</section>
+</div>
+</div>

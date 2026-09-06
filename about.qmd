@@ -1,66 +1,38 @@
 ---
 title: "About the Repository"
-description: "Repository profile, researcher overview, and intellectual roadmap of MS Emon's open research lab."
-toc: true
 ---
 
-::: {.kicker}
-REPOSITORY PROFILE
-:::
+<div class="single-post-area">
+<div class="post-body">
+<section class="article-card">
+<p class="card-kicker">REPOSITORY PROFILE</p>
+<h1>About the Repository</h1>
+<p>This repository documents MS Emon's research direction across systems thinking, neuroscience, e-commerce, and customer-centric decision frameworks.</p>
+<p>It is designed as a focused public research space: concise working notes, structured synthesis, and future analytical studies will be published here as the collection develops.</p>
+<p>For formal publications and author information, visit <a href="https://www.researchgate.net/profile/Md-Salauddin-Emon" target="_blank" rel="noopener noreferrer">ResearchGate</a>.</p>
+</section>
 
-# About the Repository {.mb-3}
-
-This repository documents MS Emon's research direction across systems thinking, neuroscience, e-commerce, and customer-centric decision frameworks.
-
-It is designed as a focused public research space: concise working notes, structured synthesis, and future analytical studies will be published here as the collection develops.
-
-For formal publications and author information, visit [ResearchGate](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank" rel="noopener noreferrer"}.
-
----
-
-## Researcher Profile
-
-::: {.content-card}
-### MS Emon (Md. Salauddin Emon) {.h3 .text-primary .mb-2}
-
-**Strategy Analyst &bull; Systems, Neuroscience &amp; E-Commerce &bull; Data-Driven &amp; Customer-Centric**
-
-A curated repository of MS Emon's research and analytical deep-dives focused on the intersection of Systems Theory, Neuroscience, and E-commerce Scalability.
-
-::: {.mt-3}
-- **Primary Affiliation / Public Profile:** [ResearchGate Profile](https://www.researchgate.net/profile/Md-Salauddin-Emon){target="_blank"}
-- **Code & Open Repositories:** [GitHub @msemonlab](https://github.com/msemonlab){target="_blank"}
-- **Domain Focus:** Cognitive Systems, Enterprise Scalability Heuristics, Quantitative Decision Science
-:::
-:::
-
----
-
-## Interdisciplinary Research Matrix
-
-The research program investigates three traditionally separate disciplines to uncover actionable synthesis:
-
-| Domain | Theoretical Focus | Applied Translation |
-|---|---|---|
-| **Systems Theory** | Complex non-linear feedback loops, state transitions, stability | Resilient organizational design and supply network dynamics |
-| **Cognitive Neuroscience** | Information processing capacity, cognitive bias heuristics | High-stakes executive decision architecture and bias reduction |
-| **E-Commerce & Analytics** | Quantitative telemetry, customer lifetime dynamics | Scalable customer-centric operations and unit economics |
-
----
-
-## Intellectual Philosophy & Approach
-
-1. **Empirical Grounding:** Concepts are developed through measurable data, transparent assumptions, and computational models rather than unverified dogma.
-2. **Customer-Centricity as a Systemic Law:** True organizational scalability arises not from localized optimizations, but from aligning every systemic loop with customer value realization.
-3. **Cognitive Ergonomics:** Strategy must accommodate the biological and computational limits of human decision-makers under uncertainty.
-
----
-
-## Connect & Collaborate
-
-Feedback on working papers, collaborative analytical projects, and academic inquiries are warmly welcomed:
-
-::: {.hero-actions .mt-3}
-[Connect on ResearchGate &rarr;](https://www.researchgate.net/profile/Md-Salauddin-Emon){.btn-academic .btn-primary-academic target="_blank"}
-[GitHub Repositories](https://github.com/msemonlab){.btn-academic .btn-outline-academic target="_blank"}
-:::
+<section class="article-card" style="margin-top: 28px;">
+<p class="card-kicker" style="font-size: 11px; font-weight: 700; color: var(--accent-teal); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px;">RESEARCH TRIAD</p>
+<h2 style="font-size: 20px; color: var(--primary-blue); margin-top: 0; margin-bottom: 12px;">Interdisciplinary Research Matrix</h2>
+<div class="domain-grid">
+  <div class="domain-card">
+    <h4>1. Systems Theory</h4>
+    <p>Provides the macroscopic architectural lens: feedback loops, equilibrium dynamics, and structural resilience across organizations.</p>
+  </div>
+  <div class="domain-card">
+    <h4>2. Cognitive Neuroscience</h4>
+    <p>Provides the microscopic human lens: cognitive capacity, attention allocation, decision thresholds, and neuro-behavioral economics.</p>
+  </div>
+  <div class="domain-card">
+    <h4>3. E-Commerce Scalability</h4>
+    <p>Provides the real-world validation ground: applying analytical rigor and customer-centric design to measurable digital commerce platforms.</p>
+  </div>
+</div>
+<div class="action-btn-row" style="margin-top: 24px;">
+  <a href="https://www.researchgate.net/profile/Md-Salauddin-Emon" target="_blank" rel="noopener noreferrer" class="btn-primary">Connect on ResearchGate &rarr;</a>
+  <a href="index.html" class="btn-secondary-action">&larr; Back to Homepage</a>
+</div>
+</section>
+</div>
+</div>
