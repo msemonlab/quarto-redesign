@@ -7,10 +7,19 @@ title: "Analytics"
 <div class="post-body">
 <section class="article-card">
 <p class="card-kicker">ANALYTICAL ARCHIVE</p>
-<h1>Analytics</h1>
-<p>This section will present data-driven analyses, decision frameworks, visual explanations, and analytical experiments.</p>
-<p>Planned themes include customer-centric systems, e-commerce scalability, measurable operating frameworks, and the relationship between human cognition and decision quality.</p>
-<p class="search-status">The analytics archive is currently initializing. Future Quarto documents can be added as standalone pages or computational notebooks.</p>
+<h1 style="margin-top: 0; margin-bottom: 16px;">Analytics</h1>
+<div class="status-card" style="margin-top: 20px;">
+<div class="status-beacon-wrapper">
+  <span class="beacon-dot"></span>
+  <span class="beacon-label">Telemetry &amp; Frameworks</span>
+</div>
+<p style="margin-bottom: 16px;">The Analytics Archive synthesizes data-driven models, behavioral telemetry, and system-level experimentation.</p>
+<div class="focus-panel">
+<span>Strategic Vectors:</span>
+<p>Customer-centric architecture, e-commerce scalability, and cognitive decision quality.</p>
+</div>
+<p class="status-note" style="margin-bottom: 0;">System status: Initializing computational pipelines.</p>
+</div>
 </section>
 
 <section class="article-card" style="margin-top: 28px;">
