@@ -1,62 +1,54 @@
-# MS Emon &mdash; Research Repository (Quarto Redesign)
+# MS Emon's Personal Log - Quarto Redesign
 
-A modern, accessible, and responsive personal research and strategy website built with [Quarto](https://quarto.org/), inspired by the "Research Instrument" design language of `quarto-test`.
+This repository contains my personal log, research notes, and the source code for my Quarto-based website. Now that the repository is private, this README serves as my internal notebook, task tracker, and development reference.
 
-**Live Production Site:** [https://msemonlab.github.io/quarto-redesign/](https://msemonlab.github.io/quarto-redesign/)  
-**ResearchGate Profile:** [Md. Salauddin Emon](https://www.researchgate.net/profile/Md-Salauddin-Emon)  
-**GitHub Organization / User:** [@msemonlab](https://github.com/msemonlab)
+## Quick Links
+
+- **Live Production Site:** [https://msemonlab.github.io/quarto-redesign/](https://msemonlab.github.io/quarto-redesign/)  
+- **ResearchGate Profile:** [Md. Salauddin Emon](https://www.researchgate.net/profile/Md-Salauddin-Emon)  
+- **GitHub Organization / User:** [@msemonlab](https://github.com/msemonlab)
 
 ---
 
-## Site Architecture & Structure
+## Research Logs & Notes
+
+*(Use this space to track ongoing thoughts, research progress, and private notes)*
+
+- **[2026-09-16]** Transitioned repository to private. Refocused the README to be a personal log and tracker instead of a public-facing description.
+
+---
+
+## Site Architecture & Structure Reference
 
 ```text
 quarto-redesign/
-├── .github/
-│   └── workflows/
-│       └── pages.yml         # Automated CI/CD pipeline for GitHub Pages deployment
-├── _includes/
-│   ├── head.html             # Google Fonts, vector favicon, & pre-render theme detection
-│   ├── header.html           # Custom sticky header with search, Sun/Moon toggle, & drawer
-│   └── footer.html           # Two-column layout closing, sidebar widgets, & hero-gradient footer
-├── assets/
-│   ├── images/
-│   │   ├── logo.svg          # Brand vector logo (systems & neural nodes)
-│   │   └── favicon.svg       # Vector browser favicon
-│   └── styles.css            # Custom CSS system: atmospheric gradients, grid drift, & cards
-├── _quarto.yml               # Central Quarto project configuration
-├── index.qmd                 # Homepage with live observation field & publication spotlight
-├── research.qmd              # Research archive with working papers & BibTeX citations
-├── analytics.qmd             # Analytics archive with planned computational frameworks
-├── about.qmd                 # Researcher profile, methodology, & collaboration links
-├── search.qmd                # Dedicated search page with client-side indexing engine
-├── README.md                 # Project setup and development guide
-└── CHANGES.md                # Comprehensive audit of improvements vs. original
+├── .github/workflows/pages.yml       # Automated CI/CD pipeline for GitHub Pages
+├── _includes/                        # Custom HTML templates (head, header, footer)
+├── assets/                           # CSS, images, and logos
+├── _quarto.yml                       # Central Quarto project configuration
+├── index.qmd                         # Homepage
+├── research.qmd                      # Research archive
+├── analytics.qmd                     # Analytics archive
+├── about.qmd                         # Profile and methodology
+└── search.qmd                        # Search page
 ```
 
 ---
 
-## Local Development & Rendering
+## Local Development Reminders
 
 ### Prerequisites
+1. [Quarto CLI](https://quarto.org/docs/get-started/)
+2. `git`
 
-1. Install the latest [Quarto CLI](https://quarto.org/docs/get-started/) (v1.4+ recommended).
-2. Ensure `git` is installed.
+### Useful Commands
 
-### Live Preview Server
-
-To start an interactive local development server with instant hot-reloading:
-
-```bash
-quarto preview
-```
-
-### Production Build / Render
-
-To compile the full static website:
-
-```bash
-quarto render
-```
-
-Generated outputs will be compiled into the `_site/` directory ready for deployment.
+- **Live Preview Server:** 
+  ```bash
+  quarto preview
+  ```
+- **Production Build:**
+  ```bash
+  quarto render
+  ```
+  *(Compiles the static website into the `_site/` directory)*
