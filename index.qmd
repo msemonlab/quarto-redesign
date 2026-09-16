@@ -31,7 +31,7 @@ title: "Home"
   <div class="article-meta">
     <span>Md. Salauddin Emon</span>
     <span>&bull;</span>
-    <span>Strategy Analyst</span>
+    <span>Strategic Analyst</span>
   </div>
   <div class="badge-row">
     <span class="tag-badge tag-year">2025</span>
@@ -43,7 +43,7 @@ title: "Home"
   </p>
   <div class="action-btn-row">
     <a href="https://www.researchgate.net/profile/Md-Salauddin-Emon" target="_blank" rel="noopener noreferrer" class="btn-primary">View on ResearchGate &rarr;</a>
-    <a href="research.html" class="btn-secondary-action">Browse Research Archive</a>
+    <a href="research" class="btn-secondary-action">Browse Research Archive</a>
   </div>
 </div>
 </section>
